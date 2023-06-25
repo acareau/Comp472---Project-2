@@ -1,10 +1,12 @@
 # Comp472---Project-2
+# Briac Cordelle 40167269
+# Alexandre 
 
 Question 1 (Java):
 
 a) How many hidden layers have you used?
 
-  None. This is a simple function, two input nodes to one output node.
+None. This is a simple function, two input nodes to one output node.
 
 b) What are the weights and biases of each node?
 
@@ -19,7 +21,8 @@ Just one, because the training set is pretty small and not very complex.
 
 b) How many nodes in each hidden layer and why that number of nodes in particular?
 
-5 nodes because there are 5 inputs. 
+3 nodes because there are 5 inputs and one output and generally the number of nodes in the hidden layer is 
+in between those 2 numbers. After experimentation, 3 was found to be enough. 
 
 c) What is the activation function that you used and why? Did you use the same activation function in all layers? Why?
 
@@ -37,12 +40,12 @@ used as much due to its high computing cost but in this case, with a small datas
 
 e) Can you use one hidden layer only to solve this problem? If yes, how many nodes are you going to have in it? And why?
 
-  Yes. Both datasets can be solved with a simple OR gate on inputs A and C, therefore the hidden layer can have a single node, or there can be no hidden layer at all. The output node can simply be reached by a single function.
+Yes. Both datasets can be solved with a simple OR gate on inputs A and C, therefore the hidden layer can have a single node, or there can be no hidden layer at all. The output node can simply be reached by a single function.
   
 f) Can we use 5 hidden layers? Is that a good idea? Justify your answer.
 
-  Yes, it's possible to use 5 layers. No, it wouldn't be a good idea. Since the datasets can be solved with a single function, adding layers and nodes needlessly adds time and space complexity to the network.
+Yes, it's possible to use 5 layers. No, it wouldn't be a good idea. Since the datasets can be solved with a single function, adding layers and nodes needlessly adds time and space complexity to the network.
 
 g) How did the neural net do in classifying the testing set? Comment on how good or bad it learned the function from the training set.
 
-It did good. 
+It did good. It learns very quickly and produces 100% accuracy from the test set. 
